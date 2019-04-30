@@ -31,10 +31,12 @@ To help you, find below a table with algorithms and its complexity.
 
 ## Straight Insertion Sort
 ![image alt](/img/Sorting-algorithms/Insertion_sort_animation.gif "Straight Insertion")
+> Source: https://pt.wikipedia.org/wiki/Insertion_sort
 
 Straight insertion sort is one of the most basic sorting algorithms that essentially inserts an element into the right position of an already sorted list. It is usually added at the end of a new array and moves down until it finds an element smaller thank itself (the desired position). The process repeats for all the elements in the unsorted array. Consider the array {3,1,2,5,4}, we begin at 3, and since there are no other elements in the sorted array, the sorted array becomes just {3}. Afterward, we insert 1 which is smaller than 3, so it would move in front of 3 making the array {1,3}. This same process is repeated down the line until we get the array {1,2,3,4,5}.
 
 ![image alt](/img/Sorting-algorithms/Insertion-sort-example-300px.gif "Straight Insertion")
+> Source: https://pt.wikipedia.org/wiki/Insertion_sort
 
 The advantages of this process are that it is straightforward and easy to implement. Also, it is relatively quick when there are small amounts of elements to sort. It can also turn into binary insertion which is when you compare over longer distances and narrow it down to the right spot instead of comparing against every single element before the right place. However, a straight insertion sort is usually slow whenever the list becomes large.
 
@@ -71,10 +73,12 @@ def insertionSort(alist):
 
 ## Shell Sort
 ![image alt](/img/Sorting-algorithms/Sorting_shellsort_anim.gif "Shell Sort")
+> Source: https://en.wikipedia.org/wiki/Shellsort
 
 Shell sort is an insertion sort that first partially sorts its data and then finishes the sort by running an insertion sort algorithm on the entire array. It generally starts by choosing small subsets of the array and sorting those arrays. Afterward, it repeats the same process with larger subsets until it reaches a point where the subset is the array, and the entire thing becomes sorted. The advantage of doing this is that having the array almost entirely sorted helps the final insertion sort achieve or be close to its most efficient scenario.
 
 ![image alt](/img/Sorting-algorithms/Shell_Sort_Algorithm.gif "Shell Sort")
+> Source: https://www.youtube.com/watch?v=qzXAVXddcPU
 
 Furthermore, increasing the size of the subsets is achieved through a decreasing increment term. The increment term essentially chooses every kth element to put into the subset. It starts large, leading to smaller (more spread out) groups, and it becomes smaller until it becomes 1 (all of the array). 
 
@@ -120,6 +124,7 @@ def gap_InsertionSort(nlist,start,gap):
 
 ## Bubble Sort
 ![image alt](/img/Sorting-algorithms/Sorting_bubblesort_anim.gif "Bubble Sort")
+> Source: https://en.wikibooks.org/wiki/A-level_Computing/AQA/Paper_1/Fundamentals_of_algorithms/Sorting_algorithms#Bubble_Sort
 
 Bubble sort compares adjacent elements of an array and organizes those elements. Its name comes from the fact that large numbers tend to “float” (bubble) to the top. It loops through an array and sees if the number at one position is greater than the number in the following position which would result in the number moving up. This cycle repeats until the algorithm has gone through the array without having to change the order. This method is advantageous because it is simple and works very well for mostly sorted lists.  As a result, programmers can quickly and easily implement this sorting algorithm. However, the tradeoff is that this is one of the slower sorting algorithms.
 
@@ -151,6 +156,7 @@ def bubbleSort(alist):
 
 ## Quicksort
 ![image alt](/img/Sorting-algorithms/Quicksort.gif "Quicksort")
+> Source: https://commons.wikimedia.org/wiki/File:Quicksort.gif
 
 Quicksort is one of the most efficient sorting algorithms, and this makes of it one of the most used as well.
 The first thing to do is to select a pivot number, this number will separate the data, on its left are the numbers smaller than it and the greater numbers on the right. With this, we got the whole sequence partitioned.
@@ -163,6 +169,7 @@ Main characteristics:
 * Worst case complexity O(n²)
 
 ![image alt](/img/Sorting-algorithms/Quicksort-example.gif "Quicksort")
+> Source: https://brilliant.org/wiki/sorting-algorithms/
 
 Python implementation:
 ```
@@ -219,6 +226,7 @@ def partition(alist,first,last):
 ```
 ## Heapsort
 ![image alt](/img/Sorting-algorithms/Sorting_heapsort_anim.gif "Heapsort")
+> Source: https://en.wikipedia.org/wiki/Heapsort
 
 Heapsort is a sorting algorithm based in the structure of a heap. The heap is a specialized data structure found in a tree or a vector.
 In the first stage of the algorithm, a tree is created with the values to be sorted, starting from the left, we create the root node, with the first value. Now we create a left child node and insert the next value, at this moment we evaluate if the value set to the child node is bigger than the value at the root node, if yes, we change the values. We do this to all the tree. The initial idea is that the parent nodes always have bigger values than the child nodes.
@@ -228,6 +236,7 @@ At the end of the first step, we create a vector starting with the root value an
 Now we start to compare parent and child nodes values looking for the biggest value between them, and when we find it, we change places reordering the values. In the first step, we compare the root node with the last leaf in the tree. If the root node is bigger, then we change the values and continue to repeat the process until the last leaf is the larger value. When there are no more values to rearrange, we add the last leaf to the vector and restart the process. We can see this in the image below.
 
 ![image alt](/img/Sorting-algorithms/uv9rgMfetq-heapsort-example.gif "Heapsort")
+> Source: https://en.wikipedia.org/wiki/Heapsort
 
 The main characteristics of the algorithm are:
 * From the family of sorting by selection
@@ -303,6 +312,7 @@ Shell sort and Heap Sort algorithms performed well despite the length of the lis
 In this post, we showed 5 of the most common sorting algorithms used today. Before using any of them is extremely important to know how fast it runs and how much space is going to use. So it’s the tradeoff between complexity, speed, and volume. Another critical characteristic of the sorting algorithms that are important to know is its stability. The stability means that the algorithm keeps the order of elements with equal key values. The best algorithm changes for each different set of data and as a result, understanding our data plays a significant role in the process of choosing the right algorithm.
 
 ![image alt](/img/Sorting-algorithms/stability.png "Stability")
+> Source: https://en.wikipedia.org/wiki/File:Sorting_stability_playing_cards.svg
 
 As we can see, understanding our data plays a very important role in the process of choosing the right algorithm.
 
