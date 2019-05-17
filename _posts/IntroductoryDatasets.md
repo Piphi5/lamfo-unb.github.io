@@ -18,7 +18,7 @@ Currently, the world is accelerating into a data revolution, and the skills of a
 
 To start this post, we have the Iris flower dataset. This dataset contains three different types of Iris flowers (Iris Setosa, Iris Versicolour, Iris Virgnica) with 50 plants for each kind that contain five attributes (sepal length, sepal width, petal length, and petal width). The data that the Iris dataset includes is cleaned up and easy to work with. Furthermore, this dataset is an excellent introductory set for people that are beginning to learn machine learning, and it is possibly the best-known dataset in pattern recognition literature. However, this dataset lacks samples for more complicated data science projects.
 
-### MNITST
+### MNIST
 
 The second dataset we will be covering is the MNIST dataset. This dataset contains pictures of handwritten letters and digits from data collected by the National Institute of Standards and Technology. Similar to the Iris flower dataset, the MNIST dataset is excellent for people learning pattern recognition techniques without all the preprocessing that is usually required for a data science project. Furthermore, it provides significantly more data than the Iris flower dataset, and there are probably more useful applications that come with the MNIST dataset. However, it still is an introductory set, and there are other places where you can encounter a wider variety of data for your data science projects.
 
