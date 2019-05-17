@@ -34,7 +34,7 @@ Another dataset we will be discussing is Twitter’s API. Twitter’s API provid
 
 The final and perhaps most crucial resource for datasets that we will be discussing is Kaggle. Kaggle is a website where people can upload their datasets and assign certain tasks that people can complete, and after a certain amount of time all the submissions are ranked, and the winner can sometimes obtain a lot of prize money. As a result, this website is a haven for many data scientists because it not only provides a great environment to learn and practice the applications of data science skills on real data sets but it sometimes comes with monetary compensation if you win the competition. 
 
-###Conclusion
+### Conclusion
 
 In conclusion, data is critical for any data science project, and there are many great places to find it. The resources in this blog are a great start and can be used to practice and increase your skills as a data scientist or for your projects. However, this is only a start, and this blog mentioned only a few of the spots in an ocean of public data ranging from public government data to public, corporate data. Just remember, if you’re not satisfied with the data found from these sources, there is a lot more data beyond the scope of this blog post.
 
