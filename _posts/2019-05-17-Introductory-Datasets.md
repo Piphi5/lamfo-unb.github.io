@@ -1,13 +1,16 @@
+﻿
 ---
 layout: post
-title: Introductory Datasets**
+title: Introductory Datasets
 lang: en
-header-img: img/ensemble/0020.png**
-date: 2019-05-17 7:00:00**
-tags: [datasets**, datascience**]
-author: Matteo Kimura**
+header-img: img/ensemble/0020.png
+date: 2019-05-17 7:00:00
+tags: [datasets, datascience]
+author: Matteo Kimura
 comments: true
 ---
+
+
 
 
 # Introduction
@@ -37,4 +40,3 @@ The final and perhaps most crucial resource for datasets that we will be discuss
 ### Conclusion
 
 In conclusion, data is critical for any data science project, and there are many great places to find it. The resources in this blog are a great start and can be used to practice and increase your skills as a data scientist or for your projects. However, this is only a start, and this blog mentioned only a few of the spots in an ocean of public data ranging from public government data to public, corporate data. Just remember, if you’re not satisfied with the data found from these sources, there is a lot more data beyond the scope of this blog post.
-
